@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>874</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>能见度仪器测试程序</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="0" column="0">
+     <widget class="QWidget" name="headWidget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="labLogoCn">
+         <property name="styleSheet">
+          <string notr="true">font: 32pt &quot;微软雅黑&quot;;
+background-color: rgb(85, 170, 255);</string>
+         </property>
+         <property name="text">
+          <string>能见度仪测试程序</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1071</width>
+            <height>728</height>
+           </rect>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QWidget" name="widget" native="true">
+             <layout class="QGridLayout" name="gridLayout">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="frmDeviceNode" name="widget1" native="true"/>
+              </item>
+              <item row="0" column="1">
+               <widget class="frmDeviceNode" name="widget2" native="true"/>
+              </item>
+              <item row="0" column="2">
+               <widget class="frmDeviceNode" name="widget3" native="true"/>
+              </item>
+              <item row="0" column="3">
+               <widget class="frmDeviceNode" name="widget4" native="true"/>
+              </item>
+              <item row="1" column="0">
+               <widget class="frmDeviceNode" name="widget5" native="true"/>
+              </item>
+              <item row="1" column="1">
+               <widget class="frmDeviceNode" name="widget6" native="true"/>
+              </item>
+              <item row="1" column="2">
+               <widget class="frmDeviceNode" name="widget7" native="true"/>
+              </item>
+              <item row="1" column="3">
+               <widget class="frmDeviceNode" name="widget8" native="true"/>
+              </item>
+              <item row="2" column="0">
+               <widget class="frmDeviceNode" name="widget9" native="true"/>
+              </item>
+              <item row="2" column="1">
+               <widget class="frmDeviceNode" name="widget10" native="true"/>
+              </item>
+              <item row="2" column="2">
+               <widget class="frmDeviceNode" name="widget11" native="true"/>
+              </item>
+              <item row="2" column="3">
+               <widget class="frmDeviceNode" name="widget12" native="true"/>
+              </item>
+              <item row="3" column="0">
+               <widget class="frmDeviceNode" name="widget13" native="true"/>
+              </item>
+              <item row="3" column="1">
+               <widget class="frmDeviceNode" name="widget14" native="true"/>
+              </item>
+              <item row="3" column="2">
+               <widget class="frmDeviceNode" name="widget15" native="true"/>
+              </item>
+              <item row="3" column="3">
+               <widget class="frmDeviceNode" name="widget16" native="true"/>
+              </item>
+              <item row="4" column="0">
+               <widget class="frmDeviceNode" name="widget17" native="true"/>
+              </item>
+              <item row="4" column="1">
+               <widget class="frmDeviceNode" name="widget18" native="true"/>
+              </item>
+              <item row="4" column="2">
+               <widget class="frmDeviceNode" name="widget19" native="true"/>
+              </item>
+              <item row="4" column="3">
+               <widget class="frmDeviceNode" name="widget20" native="true"/>
+              </item>
+              <item row="5" column="0">
+               <widget class="frmDeviceNode" name="widget21" native="true"/>
+              </item>
+              <item row="5" column="1">
+               <widget class="frmDeviceNode" name="widget22" native="true"/>
+              </item>
+              <item row="5" column="2">
+               <widget class="frmDeviceNode" name="widget23" native="true"/>
+              </item>
+              <item row="5" column="3">
+               <widget class="frmDeviceNode" name="widget24" native="true"/>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>frmDeviceNode</class>
+   <extends>QWidget</extends>
+   <header location="global">frmdevicenode.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
